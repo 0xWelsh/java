@@ -1,0 +1,16 @@
+# Understanding Swing Architecture
+## What is Java Swing?
+Java Swing is a GUI toolkit for java. Think of it as your toolbox for creating desktop applications
+with windows, buttons, text fields, and all visual elements users interact with.
+
+## Key concepts from the project
+#### **1. The main application entry points**
+```java
+public static void main(String[] args) {
+	SwingUtilities.invokeLater(() -> {
+		new AdminDashboard();
+	});
+}
+```
+
+
