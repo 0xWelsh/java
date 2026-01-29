@@ -25,7 +25,7 @@ public class JDBCExample {
 		conn = DriverManager.getConnection(DB_URL, USER, PASS);
 
 		// step 4 execute a query
-		System,out.println("Connecting to database...");
+		System.out.println("Connecting to database...");
 		stmt = conn.createStatement();
 
 		String sql = "CREATE DATABASE STUDENTS";
